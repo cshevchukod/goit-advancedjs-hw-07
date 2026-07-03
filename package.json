@@ -5,7 +5,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "devDependencies": {
+    "prettier": "3.9.4"
   }
 }

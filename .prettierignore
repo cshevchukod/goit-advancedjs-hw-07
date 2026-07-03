@@ -1,0 +1,6 @@
+dist
+node_modules
+package-lock.json
+swagger.json
+src/img
+assets
